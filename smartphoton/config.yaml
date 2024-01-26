@@ -1,7 +1,7 @@
 ---
-name: Smartphoton
+name: Smartphoton-dev
 version: 1.2.0
-slug: smartphoton
+slug: smartphoton-dev
 description: Smartphoton
 url: https://domosimple.eu/
 ingress: false
