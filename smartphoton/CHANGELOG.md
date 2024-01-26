@@ -1,94 +1,31 @@
-## 0.0.36
-- test jean luc
+## 1.2.0
+- Ajout Nombre d'onduleur
+- info sur les onduleurs secondaires
 
-## 0.0.35
-- Ajout choix elfin création de fichier de configuration
+## 1.1.5
+- Correction du mode onduleur
 
-## 0.0.34
-- Conrrection de la config
+## 1.1.4
+- Correction sur la création des sensors mppt
+- Correction sur la création du sensor nombre de batterie
+- Correction parametre 2 pour onduleur parallèle
 
-## 0.0.33
-- Ajout de la configuration elfin (non fonctionnel)
+## 1.1.3
+- Mise à jour base-nodejs en v0.1.2
+- Mise à jour addon node red en v17.0.3
+- Ajout debug vision
+- Ajout Version sur les appareils mqtt
 
-## 0.0.32
-- Correction du choix Batterie pylontech
+## 1.1.2
+- Ajout deuxième entrée mppt
 
-## 0.0.31
-- Ajout Choix onduleur
-- Ajout Choix Batterie
+## 1.1.1
+- Ajout de l'option Aucune sur le choix des batteries
 
-## 0.0.30
-- Ajout de port EASUN
+## 1.1.0
+- Mise à jour de certaines aplications
+- Mise à jour alpine v3.19
+- Mise à jour De addon-node-red v17.0.2 (v3.1.3)
 
-## 0.0.29
-- je suis une buse
+## 1.0.0
 
-## 0.0.28
-- parce que j avais pas envie d aller dormir
-
-## 0.0.27
-- ajout flow mqtt externe
-- ajout node red contrib ip au package json
-- a terminer
-
-## 0.0.26
-- ajout ttyEASUN et ttyjkbms
-- modification et activation flow jkbms
-
-## 0.0.23
-- Modification de la configuration
-
-## 0.0.22
-- ajout logo smartphoton
-- mise a jour flows
-
-## 0.0.21
-- Add flows 
-
-## 0.0.20
-- Mise a jour node-red-node-serialport en 2.0.0
-- Ajout d'un exemple de controle avec vérification des usb
-- Alexis a tois de jouer 
-
-## 0.0.19
-- Ajout addon node-red compagnon
-- Création des chemins usb
-- Ajout des entites par appareil
-
-## 0.0.18
-- Correction de mise à jour
-- test sur node red-red Compagnon
-- Ajout selection USB
-
-## 0.0.17
-- Ajout des palettes pour le fonctionnement de smartphoton
-
-## 0.0.16
-- Correction flows
-- Correction dashboard
-- Migration node red v16.0.2
-
-## 0.0.15
-- Vérification dashboard
-
-## 0.0.14
-- Suppression ingress
-- Ajout d'un vérification de version
-- Modicication des flows sur la nouvelle version seulement
-- Sauvergarde des anciens flows si modification
-- Modification du dashboard sur la nouvelle version seulement
-- Sauvergarde de l'ancien dashboard si modification
-- Changement du lien du site internet dans description
-- Correction installation git
-- Ajout flow File Pretty
-- Ajout des globals variables
-
-## 0.0.13
-
-- Changement d'adresse web UI
-- Test de la copie des flows dans le run suite a un bug de renitialisation des flows
-- Ajout ingress
-
-## 0.0.12
-
-- Initial release
