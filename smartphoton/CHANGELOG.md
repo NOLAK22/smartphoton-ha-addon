@@ -1,4 +1,9 @@
 ## 1.2.0
+- Ajout conso maison onduleur parallèle
+- Ajout serial onduleur parallèle
+- Correction sur le paramètre onduleur non parallèle
+
+## 1.2.0
 - Ajout Nombre d'onduleur
 - info sur les onduleurs secondaires
 
