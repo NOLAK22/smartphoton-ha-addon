@@ -1,7 +1,7 @@
 ---
 name: Smartphoton-dev
-version: 1.2.1-r2
-slug: smartphoton-dev
+version: 1.2.1-r3
+slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
 ingress: false
@@ -34,7 +34,8 @@ map:
 options:
   onduleur: 
   usbonduleur: false
-  elfinonduleur: false
+  listusbonduleur:
+    - elfinonduleur: false
   elfinonduleurip: Adresse ip
   elfinonduleurport: 7777
   nameEntities:
@@ -85,7 +86,8 @@ options:
 schema:
   #onduleur: list(voltronic|easun)
   onduleur: list(voltronic)
-  usbonduleur: str
+  listusbonduleur:
+    - usbonduleur: str
   elfinonduleur: bool
   elfinonduleurip: str?
   elfinonduleurport: port?
