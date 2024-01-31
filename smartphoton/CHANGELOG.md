@@ -1,3 +1,7 @@
+## 1.2.1
+- Correction parametre 11
+- Nouvelle gestion des serials
+
 ## 1.2.0
 - Ajout conso maison onduleur parallèle
 - Ajout serial onduleur parallèle
