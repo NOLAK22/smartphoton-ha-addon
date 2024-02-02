@@ -1,6 +1,6 @@
 {
-  "name": "Smartphoton HA Add-ons dev",
+  "name": "Smartphoton HA Add-ons Developpement",
   "udev": true,
   "url": "https://github.com/NOLAK22/smartphoton-ha-addon/",
-  "maintainer": "Smartphoton"
+  "maintainer": "Smartphoton-dev"
 }
