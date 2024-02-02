@@ -1,6 +1,10 @@
-## 1.2.1
+## 1.3.1
 - Correction parametre 11
 - Nouvelle gestion des serials
+
+## 1.2.1
+- Mise à jour base-nodejs v0.1.3
+- Mise à jour alpine_3_19/nginx to v1.24.0-r15
 
 ## 1.2.0
 - Ajout conso maison onduleur parallèle
