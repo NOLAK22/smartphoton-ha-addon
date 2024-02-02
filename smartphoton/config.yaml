@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.1-r0
+version: 1.3.1-r2
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -34,10 +34,9 @@ map:
 options:
   onduleur: 
   usbonduleur: false
-  listusbonduleur:
-    - elfinonduleur: false
-  elfinonduleurip: Adresse ip
-  elfinonduleurport: 7777
+  listonduleur:
+    - chemin: false
+      type:
   nameEntities:
     nameOnduleur: "Onduleur"
     namePV: "PV Puissance (Watt)"
@@ -85,12 +84,10 @@ options:
   keyfile: privkey.pem
 schema:
   #onduleur: list(voltronic|easun)
-  onduleur: list(voltronic)
-  listusbonduleur:
-    - usbonduleur: str
-  elfinonduleur: bool
-  elfinonduleurip: str?
-  elfinonduleurport: port?
+  onduleur: list(aucun|voltronic)
+  listonduleur:
+    - chemin: str
+      type: str?
   nameEntities:
     nameOnduleur: str
     namePV: str

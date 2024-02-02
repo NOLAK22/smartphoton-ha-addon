@@ -36,8 +36,9 @@ Example add-on configuration:
 
 ```yaml
 onduleur: voltronic
-listusbonduleur:
-  - usbonduleur: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+listonduleur:
+  - chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+    type: serial
 elfinonduleur: false
 elfinonduleurip: Adresse ip
 elfinonduleurport: 7777
@@ -95,17 +96,26 @@ keyfile: privkey.pem
 Choisir le type d'onduleur (d'autres seront ajoutés par la suite).
    
   
-### Option: `Choix port onduleur ou usbonduleur`
+### Option: `Choix port Liste Onduleur ou listonduleur`
 Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)
+Type : ip ou serial
 
-exemple
+**exemple**
 ```yaml
-- usbonduleur: false
+- chemin: false
 ```
 ou 
 
 ```yaml
-- usbonduleur: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+- chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+  type: serial
+```
+
+ou 
+
+```yaml
+- chemin: 192.168.1.252:8888
+  type: ip
 ```
 
 ### Option: `Activer le elfin ou elfinonduleur`

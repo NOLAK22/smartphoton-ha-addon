@@ -1,6 +1,9 @@
 ## 1.3.1
 - Correction parametre 11
 - Nouvelle gestion des serials
+- Simplification elfin
+- Nouvelle gestion de calcul onduleur parallèle
+- Mise en place des multi USBs
 
 ## 1.2.1
 - Mise à jour base-nodejs v0.1.3
