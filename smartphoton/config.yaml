@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.1-r7
+version: 1.3.1-r10
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -36,7 +36,8 @@ options:
   usbonduleur: false
   listonduleur:
     - chemin: false
-      type:
+      type: serial
+      onduleur: voltronic
   nameEntities:
     nameOnduleur: "Onduleur"
     namePV: "PV Puissance (Watt)"
@@ -88,6 +89,7 @@ schema:
   listonduleur:
     - chemin: str
       type: str?
+      onduleur: str?
   nameEntities:
     nameOnduleur: str
     namePV: str
