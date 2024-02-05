@@ -104,18 +104,20 @@ Type : ip ou serial
 ```yaml
 - chemin: false
 ```
-ou 
+ou pour une communication avec onduleur en usb
 
 ```yaml
 - chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
   type: serial
+  onduleur: voltronic
 ```
 
-ou 
+ou pour une communication avec onduleur en ip ou elfin
 
 ```yaml
 - chemin: 192.168.1.252:8888
   type: ip
+  onduleur: voltronic
 ```
 
 ### Option: `Activer le elfin ou elfinonduleur`
