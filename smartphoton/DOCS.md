@@ -13,6 +13,7 @@ Smartphoton est un addon de gestion d'onduleurs et de batteries
 * [x] 24 volt (non testé)
 * [ ] 12 volt
 
+<br /><br />
 ---
 ## Installation
 ---
@@ -26,19 +27,16 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 1. Démarrez le module complémentaire "Smartphoton".
 1. Vérifiez les journaux de "Smartphoton" pour voir si tout s'est bien passé.
 
-
+<br /><br />
 ---
 ## Onduleur
 ---  
-
-### Option: `Choix de l'onduleur ou onduleur`
-Choisir le type d'onduleur (d'autres seront ajoutés par la suite).
    
-  
+
 ### Option: `Choix port Liste Onduleur ou listonduleur`
 Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)
 Type : ip ou serial
-
+<br /><br />
 **exemple**
 ```yaml
 - chemin: "false"
@@ -61,30 +59,27 @@ ou pour une communication avec onduleur en ip ou elfin
   battTension: 48
 ```
 
-**options disponibles**
+<br /><br />
+**Options disponibles**
 
-| Nom | défaut | obligatoire | options |
-|:------------------------ |:------------------- |:------------------ |:----------------- |
+| Nom | valeur par défaut | obligatoire | options |
+|:--- |:---:|:---:|:--- |
 | chemin | false | oui | Adresse ip, chemin serial|
-| type | serial | oui | ip,serial |
+| type | serial | oui | ip, serial |
 | onduleur | voltronic | oui | voltronic |
 | multionduleur | true | non | true, false |
-| battTension | 48 | non | 48,24,12 |
+| battTension | 48 | non | 48, 24, 12 |
 
 
-### Option: `Activer le elfin ou elfinonduleur`
-Si vous utilisé un elfin : vrai ou faux
 
-### Option: `Elfin`
-**Activer le elfin ou elfinonduleur** Si vous utilisé un elfin : vrai ou faux
+<br /><br />
+---
+## Nom des entités ou nameEntities
+---
 
-**Adresse elfin onduleur ou elfinonduleurip** Si vrai adresse ip du elfin de votre onduleur 
-
-**Port elfin onduleur ou elfinonduleurip** Si vrai port du elfin de votre onduleur 
-
-### Option: `Nom des entités ou nameEntities`
 Permet de personnalisé les noms des entités onduleur.
 
+<br /><br />
 ---
 ## Batterie
 ---
@@ -103,7 +98,7 @@ Choisir du port usb de la batterie ("false" pour ne pas l'utiliser)
 **Adresse elfin onduleur ou elfinbatterieip** Si vrai adresse ip du elfin de votre batterie
 
 **Port elfin onduleur ou elfinbatterieport** Si vrai port du elfin de votre batterie
-
+<br /><br />
 ---
 ## MQTT (obligatoire)
 ---
@@ -119,7 +114,7 @@ Il sera ensuite indispenssable d'ajouter intégration mqtt (voir doc mqtt)
 **mqttuser** utilisateur de connexion 
 
 **mqttpass** mot de passe de connexion
-
+<br /><br />
 ---
 ## Autres options
 ---
