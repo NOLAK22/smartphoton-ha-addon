@@ -3,8 +3,8 @@ configuration:
     name: Choix de l'onduleur
     description: >-
       Choisir votre type d'onduleur.
-  usbonduleur:
-    name: Choix port onduleur
+  listonduleur:
+    name: Liste des onduleurs
     description: >-
       Choix du port usb de l'onduleur. ("false" pour ne pas l'utiliser)
   nameEntities:

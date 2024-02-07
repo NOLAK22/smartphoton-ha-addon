@@ -26,67 +26,6 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 1. Démarrez le module complémentaire "Smartphoton".
 1. Vérifiez les journaux de "Smartphoton" pour voir si tout s'est bien passé.
 
----
-## Configuration
----
-
-**Note**: _N'oubliez pas de redémarrer le module complémentaire lorsque la configuration est modifiée.._
-
-Example add-on configuration:
-
-```yaml
-onduleur: voltronic
-listonduleur:
-  - chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
-    type: serial
-elfinonduleur: false
-elfinonduleurip: Adresse ip
-elfinonduleurport: 7777
-nameEntities:
-  nameOnduleur: Onduleur
-  namePV: PV Puissance (Watt)
-  nameBatt_charge: Batt Charge (Watt)
-  nameBatt_batt_decharge: Batt deharge (Watt)
-  nameBatt_batt_chargedecharge: Batt Charge et Decharge (watt)
-  nameConso_maison: Conso Maison (Watt)
-  nameGridTension: Grid Tension (Volt)
-  nameBattTensiont: Batterie Voltage (Volt)
-  namePvTensiont: PV Voltage (Volt)
-  nameOnduleurTension: Onduleur Tension (Volt)
-  nameDataFrequency: Data Frequency (Hz)
-  nameOnduleurFrequency: Onduleur-Frequency (Hz)
-  namePvIntensite: Pv Intensite (Amp)
-  nameBattChargeIntensite: Batt Charge Intensite (Amp)
-  nameBattDechargeIntensite: Batt Decharge Intensite (Amp)
-  nameBattCapacite: Batterie Capacité
-  nameMode: Mode Solaire
-  nameTemp: Temperature (°)
-  nameParam01: Paramètre 01
-  nameParam02: Paramètre 02
-  nameParam05: Paramètre 05
-  nameParam11: Paramètre 11
-  nameParam12: Paramètre 12
-  nameParam13: Paramètre 13
-  nameParam16: Paramètre 16
-  nameParam27: Paramètre 27
-  nameParam29: Paramètre 29
-batterie: pylontech
-battTension: "48"
-usbbatterie: false
-elfinbatterie: false
-elfinbatterieip: Adresse ip
-elfinbatterieport: 7777
-mqtt:
-  mqttadresse: 192.168.1.200
-  mqttport: "1883"
-  mqttuser: test
-  mqttpass: test
-ssl: false
-certfile: fullchain.pem
-keyfile: privkey.pem
-```
-
-**Note**: _Ceci n'est qu'un exemple, ne le copiez pas et ne le collez pas ! voir les détails de configuration en dessous_
 
 ---
 ## Onduleur
@@ -102,7 +41,7 @@ Type : ip ou serial
 
 **exemple**
 ```yaml
-- chemin: false
+- chemin: "false"
 ```
 ou pour une communication avec onduleur en usb
 
@@ -110,6 +49,7 @@ ou pour une communication avec onduleur en usb
 - chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
   type: serial
   onduleur: voltronic
+  battTension: 48
 ```
 
 ou pour une communication avec onduleur en ip ou elfin
@@ -118,7 +58,19 @@ ou pour une communication avec onduleur en ip ou elfin
 - chemin: 192.168.1.252:8888
   type: ip
   onduleur: voltronic
+  battTension: 48
 ```
+
+**options disponibles**
+
+| Nom | défaut | obligatoire | options |
+|:------------------------ |:------------------- |:------------------ |:----------------- |
+| chemin | false | oui | Adresse ip, chemin serial|
+| type | serial | oui | ip,serial |
+| onduleur | voltronic | oui | voltronic |
+| multionduleur | true | non | true, false |
+| battTension | 48 | non | 48,24,12 |
+
 
 ### Option: `Activer le elfin ou elfinonduleur`
 Si vous utilisé un elfin : vrai ou faux

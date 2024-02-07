@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.1-r30
+version: 1.3.1-r33
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -31,14 +31,13 @@ map:
   - media:rw
   - share:rw
   - ssl
-options:
-  onduleur: 
-  usbonduleur: false
+options: 
   listonduleur:
-    - chemin: false
+    - chemin: "false"
       type: serial
       onduleur: voltronic
-      multionduleur:
+      multionduleur: true
+      battTension: 48
   nameEntities:
     nameOnduleur: "Onduleur"
     namePV: "PV Puissance (Watt)"
@@ -71,7 +70,6 @@ options:
     nameParam27: "Paramètre 27"
     nameParam29: "Paramètre 29"
   batterie: 
-  battTension: 
   usbbatterie: false
   elfinbatterie: false
   elfinbatterieip: Adresse ip
@@ -86,12 +84,12 @@ options:
   keyfile: privkey.pem
 schema:
   #onduleur: list(voltronic|easun)
-  onduleur: list(aucun|voltronic)
   listonduleur:
     - chemin: str
-      type: str?
-      onduleur: str?
-      multionduleur: str?
+      type: list(false|ip|serial)?
+      onduleur: list(false|voltronic)?
+      multionduleur: bool?
+      battTension: list(48|24|12)?
   nameEntities:
     nameOnduleur: str
     namePV: str
@@ -124,7 +122,6 @@ schema:
     nameParam27: str
     nameParam29: str
   batterie: list(aucune|pylontech)?
-  battTension: list(12|24|48)?
   usbbatterie: str
   elfinbatterie: bool
   elfinbatterieip: str?
