@@ -1,4 +1,9 @@
-## 1.3.1 /!\ Attention voir forum (topic 1.3) avant installation /!\ 
+## 1.3.2 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
+- mise à jour node-red-contrib-modbus to v5.29.0
+- Mise a jour to v3.1.4
+
+
+## 1.3.1
 - Nouvelle configuration des onduleurs
 - Nouvelle gestion des serials
 - Nouvelle gestion des IPs (elfin)
@@ -10,6 +15,9 @@
 - Possibilité d'activer ou non la récupération des onduleurs parallèles (option multionduleur)
 - Ajout de l'appareil mqtt smartphoton (Pour de futurs options)
 - Correction parametre 11
+
+## 1.3
+- Prise en charge de plusieurs USBs
 
 ## 1.2.1
 - Mise à jour base-nodejs v0.1.3
