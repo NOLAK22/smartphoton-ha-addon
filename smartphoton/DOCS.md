@@ -35,7 +35,13 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 
 ### Option: `Choix port Liste Onduleur ou listonduleur`
 Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
 Type : ip ou serial
+Onduleur : choix de la batterie. false ou voltronic
+multionduleur : Utilisation des qpgs.
+battTension : Tension des batterie branché sur l'onduleur
+
+
 <br /><br />
 **exemple**
 ```yaml
@@ -83,21 +89,45 @@ Permet de personnalisé les noms des entités onduleur.
 ---
 ## Batterie
 ---
-### Option: `Choix de la Batterie ou batterie`
-Choisir le type de batterie (d'autres seront ajoutés par la suite).
 
-### Option: `Tension batteries ou battTension`
-Tension de vos batteries (Les options 12 et 24 ne sont pas entièrement fonctionnel)
+### Option: `Choix port Liste batterie ou listbatterie`
+Choisir du port usb de la batterie. ("false" pour ne pas l'utiliser)
+Chemin : ip ou serial. (<ip>:<port>) ou /dev/serial/by-id/<nom du serial>
+Type : ip ou serial
+Batterie : choix de la batterie. false ou pylontech
 
-### Option: `Choix port usb de la batterie ou usbbatterie`
-Choisir du port usb de la batterie ("false" pour ne pas l'utiliser)
 
-### Option: `Elfin`
-**Activer le elfin ou elfinbatterie** Si vous utilisé un elfin : vrai ou faux
+<br /><br />
+**exemple**
+```yaml
+- chemin: "false"
+```
+ou pour une communication avec batterie en usb
 
-**Adresse elfin onduleur ou elfinbatterieip** Si vrai adresse ip du elfin de votre batterie
+```yaml
+- chemin: /dev/serial/by-id/usb-Prolific_Technology_Inc._ATEN_USB_to_Serial_Bridge_EQDPb115818-if00-port0
+  type: serial
+  batterie: pylontech
+```
 
-**Port elfin onduleur ou elfinbatterieport** Si vrai port du elfin de votre batterie
+ou pour une communication avec batterie en ip ou elfin
+
+```yaml
+- chemin: 192.168.1.252:8888
+  type: ip
+  batterie: pylontech
+```
+
+<br /><br />
+**Options disponibles**
+
+| Nom | valeur par défaut | obligatoire | options |
+|:--- |:---:|:---:|:--- |
+| chemin | false | oui | Adresse ip, chemin serial|
+| type | serial | oui | ip, serial |
+| batterie | pylontech | oui | false,pylontech |
+
+
 <br /><br />
 ---
 ## MQTT (obligatoire)

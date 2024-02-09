@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.2-r3
+version: 1.3.2-r5
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -69,11 +69,10 @@ options:
     nameParam16: "Paramètre 16"
     nameParam27: "Paramètre 27"
     nameParam29: "Paramètre 29"
-  batterie: 
-  usbbatterie: false
-  elfinbatterie: false
-  elfinbatterieip: Adresse ip
-  elfinbatterieport: 7777
+  listbatterie:
+    - chemin: "false"
+      type: serial
+      batterie: pylontech
   mqtt:
     mqttadresse: ""
     mqttport: ""
@@ -121,11 +120,10 @@ schema:
     nameParam16: str
     nameParam27: str
     nameParam29: str
-  batterie: list(aucune|pylontech)?
-  usbbatterie: str
-  elfinbatterie: bool
-  elfinbatterieip: str?
-  elfinbatterieport: port?
+  listbatterie:
+    - chemin: "str"
+      type: list(false|ip|serial)?
+      batterie: list(false|pylontech)?
   mqtt:
     mqttadresse: str?
     mqttport: port?
