@@ -1,6 +1,6 @@
 ## 1.3.2 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
 - mise à jour node-red-contrib-modbus to v5.29.0
-- Mise a jour to v3.1.4
+- Mise a jour to v3.1.5
 
 
 ## 1.3.1
