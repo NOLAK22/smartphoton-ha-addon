@@ -1,3 +1,6 @@
+## 1.3.4
+- Force les mises à jour des capteurs mqtt
+
 ## 1.3.3 /!\ Attention voir forum (Version 1.3) avant installation /!\ 
 - mise à jour node-red-contrib-home-assistant-websocket to v0.63.0
 
