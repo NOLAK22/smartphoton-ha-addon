@@ -1,3 +1,7 @@
+## 1.3.6
+- Correction connection auto mqtt
+- Correction Paramètre 11 et 12 onduleur 24v
+
 ## 1.3.5
 - Correction Paramètre 11 et 2 sur les onduleurs non parallèles
 
