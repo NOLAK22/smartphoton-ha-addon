@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.3.6-r7
+version: 1.3.6-r8
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -70,11 +70,11 @@ options:
     nameMode: "Mode Solaire"
     nameTemp: "Temperature (°)"
     nameParam01: "Priorité alimentation"
-    nameParam02: "Courant de charge solaire"
+    nameParam02: "Courant de charge total"
     nameParam05: "Type de batterie"
     nameParam11: "Courant de charge EDF"
-    nameParam12: "Tension batterie basse"
-    nameParam13: "Tension batterie haute"
+    nameParam12: "Tension passage edf"
+    nameParam13: "Tension retour batterie"
     nameParam16: "Priorité charge batterie"
     nameParam26: "Tension de charge en vrac"
     nameParam27: "Tension de charge flottante"
