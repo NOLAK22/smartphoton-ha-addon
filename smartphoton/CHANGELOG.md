@@ -5,6 +5,7 @@
 - Ajout code erreur
 - Ajout des parametres dans l'appareil smartphoton
 - Modification des noms de paramètres par défault pour compatibilités avec d'autres onduleurs
+- Ajout de tension de charge en vrac (paramètre 26 sous voltronic)
 
 ## 1.3.5
 - Correction Paramètre 11 et 2 sur les onduleurs non parallèles
