@@ -1,3 +1,6 @@
+## 1.3.9
+- Nouvelle gestion pylontech
+
 ## 1.3.8
 - Mise a jour node red v3.1.9
 - Mise a jour node-red-contrib-home-assistant-websocket v0.64.0
@@ -9,8 +12,6 @@
 - Mise a jour node-red-contrib-home-assistant-websocket v0.63.1
 - Mise a jour node-red-dashboard v3.6.5
 - Correction du dashboard smartphoton
-
-## 1.3.7
 - Mise a jour base-nodejs v0.1.4
 - Mise a jour node red v3.1.6
 - Mise a jour node-red-contrib-bigtimer v2.8.6
