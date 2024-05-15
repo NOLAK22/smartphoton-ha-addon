@@ -1,5 +1,7 @@
 ## 1.3.9
 - Nouvelle gestion pylontech
+- Renomage des noms mqtt pour les onduleurs
+- Ajout d'un mqtt interne pour utilisation futur
 
 ## 1.3.8
 - Mise a jour node red v3.1.9
