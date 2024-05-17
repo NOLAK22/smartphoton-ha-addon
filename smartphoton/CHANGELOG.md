@@ -1,4 +1,5 @@
 ## 1.3.9
+- Modification de la classe watt en power
 - Nouvelle gestion pylontech
 - Renomage des noms mqtt pour les onduleurs
 - Ajout d'un mqtt interne pour utilisation futur
