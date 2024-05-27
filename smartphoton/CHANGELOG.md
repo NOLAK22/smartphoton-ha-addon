@@ -3,6 +3,8 @@
 - Nouvelle gestion pylontech
 - Renomage des noms mqtt pour les onduleurs
 - Ajout d'un mqtt interne pour utilisation futur
+- Correction d'affichage des erreurs onduleur
+- Ajout du sensor code erreur en forme de tableau
 
 ## 1.3.8
 - Mise a jour node red v3.1.9
