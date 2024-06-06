@@ -5,6 +5,7 @@
 - Ajout d'un mqtt interne pour utilisation futur
 - Correction d'affichage des erreurs onduleur
 - Ajout du sensor code erreur en forme de tableau
+- Mise à jour base-nodejs v0.2.2
 
 ## 1.3.8
 - Mise a jour node red v3.1.9
