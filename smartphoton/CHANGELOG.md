@@ -6,6 +6,10 @@
 - Correction d'affichage des erreurs onduleur
 - Ajout du sensor code erreur en forme de tableau
 - Mise à jour base-nodejs v0.2.2
+- Mise a jour node-email v3.0.0
+- Mise a jour node-red-contrib-modbus v5.40.0
+- Mise a jour theme-collection v4.0.1
+- Mise a jour node red 4.0.0
 
 ## 1.3.8
 - Mise a jour node red v3.1.9
