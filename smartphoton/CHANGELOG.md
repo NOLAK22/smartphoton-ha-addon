@@ -3,6 +3,9 @@
 - Ajout des modes Charge, Bypass, Eco.
 - Ajout du deuxieme mptt sur des onduleurs différents
 - Remplacement des globals name
+- Remplacement des globals Paramètre
+- Remplacement des globals Mqtt
+- Remplacement des Noms de l'onduleur
 - // préparation Refonte des parametres (calcul auto du crc) //
 - // Préparation Ajout la création thème //
 - // Prepartion des capteurs Ha //
