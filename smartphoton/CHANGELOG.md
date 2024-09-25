@@ -1,3 +1,12 @@
+## 1.3.12
+
+- Ajout des modes Charge, Bypass, Eco.
+- Ajout du deuxieme mptt sur des onduleurs différents
+- Remplacement des globals name
+- // préparation Refonte des parametres (calcul auto du crc) //
+- // Préparation Ajout la création thème //
+- // Prepartion des capteurs Ha //
+- // Refonte de la configuration des global variable //
 
 
 ## 1.3.11
