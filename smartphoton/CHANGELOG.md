@@ -6,6 +6,8 @@
 - Remplacement des globals Paramètre
 - Remplacement des globals Mqtt
 - Remplacement des Noms de l'onduleur
+- Mise a jour vers nodejs:0.2.5
+- Mise a jour node red 4.0.3
 - // préparation Refonte des parametres (calcul auto du crc) //
 - // Préparation Ajout la création thème //
 - // Prepartion des capteurs Ha //
