@@ -8,6 +8,7 @@
 - Remplacement des Noms de l'onduleur
 - Mise a jour vers nodejs:0.2.5
 - Mise a jour node red 4.0.3
+- Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
 - // préparation Refonte des parametres (calcul auto du crc) //
 - // Préparation Ajout la création thème //
 - // Prepartion des capteurs Ha //
