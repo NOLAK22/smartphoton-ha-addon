@@ -1,5 +1,10 @@
-## 1.3.12
+## 1.4.00
+/!\ Attention /!\ 
+Cette version integre les calculs crc à la volé certain changement de parametre peuvent ne pas fonctionner correctement
 
+- Ajout Calcul CRC
+- Ajout des création de capteurs HA (Appareil mqtt => smartphoton => Redemarer Ha)
+- Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
 - Ajout des modes Charge, Bypass, Eco.
 - Ajout du deuxieme mptt sur des onduleurs différents
 - Remplacement des globals name
@@ -8,11 +13,8 @@
 - Remplacement des Noms de l'onduleur
 - Mise a jour vers nodejs:0.2.5
 - Mise a jour node red 4.0.3
-- Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
-- // préparation Refonte des parametres (calcul auto du crc) //
 - // Préparation Ajout la création thème //
-- // Prepartion des capteurs Ha //
-- // Refonte de la configuration des global variable //
+- Refonte de la configuration des globals variables
 
 
 ## 1.3.11
