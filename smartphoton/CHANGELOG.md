@@ -7,6 +7,7 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
 - Ajout des modes Charge, Bypass, Eco.
 - Ajout du deuxieme mptt sur des onduleurs différents
+- Ajout du control des LEDs
 - Remplacement des globals name
 - Remplacement des globals Paramètre
 - Remplacement des globals Mqtt
