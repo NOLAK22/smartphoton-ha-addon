@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r5
+version: 1.4.00-r6
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -91,7 +91,7 @@ schema:
   listonduleur:
     - chemin: str
       type: list(false|ip|serial)?
-      onduleur: list(false|voltronic|easun|growattspf)?
+      onduleur: list(false|voltronic|easun|growattspf|growattSPH)?
       multionduleur: bool?
       battTension: list(48|24|12)?
   interval: int
