@@ -9,6 +9,7 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout du deuxieme mptt sur des onduleurs différents
 - Ajout du control des LEDs
 - Ajout de la configuration de la date et l'heure de l'onduleur à partir du serveur
+- Ajout des commandes personnalisé
 - Remplacement des globals name
 - Remplacement des globals Paramètre
 - Remplacement des globals Mqtt
