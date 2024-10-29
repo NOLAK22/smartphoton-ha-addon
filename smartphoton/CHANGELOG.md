@@ -10,6 +10,8 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout du control des LEDs
 - Ajout de la configuration de la date et l'heure de l'onduleur à partir du serveur
 - Ajout des commandes personnalisé
+- Ajout des attributs sur les codes erreurs
+- Ajout numéro version et modèle
 - Remplacement des globals name
 - Remplacement des globals Paramètre
 - Remplacement des globals Mqtt
