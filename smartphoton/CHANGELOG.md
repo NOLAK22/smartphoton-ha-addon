@@ -9,9 +9,11 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout du deuxieme mptt sur des onduleurs différents
 - Ajout du control des LEDs
 - Ajout de la configuration de la date et l'heure de l'onduleur à partir du serveur
-- Ajout des commandes personnalisé
+- Ajout de commandes personnalisées
 - Ajout des attributs sur les codes erreurs
 - Ajout numéro version et modèle
+- Vérification des données Voltronic
+- Alerte : signalement et tentative de reconnexion suite à un problème de communication
 - Remplacement des globals name
 - Remplacement des globals Paramètre
 - Remplacement des globals Mqtt
