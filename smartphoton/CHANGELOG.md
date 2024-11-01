@@ -12,7 +12,8 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout de commandes personnalisées
 - Ajout des attributs sur les codes erreurs
 - Ajout numéro version et modèle
-- Ajout option 13 et 140 au parametre charge max
+- Ajout option 130 et 140 au parametre charge max
+- Ajout debug
 - Vérification des données Voltronic
 - Alerte : signalement et tentative de reconnexion suite à un problème de communication
 - Remplacement des globals name
