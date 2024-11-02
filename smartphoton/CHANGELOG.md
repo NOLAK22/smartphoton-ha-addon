@@ -5,6 +5,7 @@ Cette version integre les calculs crc à la volé certain changement de parametr
 - Ajout Calcul CRC
 - Ajout des création de capteurs HA (Appareil mqtt => smartphoton => Redemarer Ha)
 - Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
+- Ajout d'intervalle de requete suivant le temps intervalle de communication
 - Ajout des modes Charge, Bypass, Eco.
 - Ajout du deuxieme mptt sur des onduleurs différents
 - Ajout du control des LEDs
