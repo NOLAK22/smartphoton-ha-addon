@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r16
+version: 1.4.00-r17
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -57,6 +57,7 @@ options:
     nameBatt_batt_decharge: "Batt deharge (Watt)"
     nameBatt_batt_chargedecharge: "Batt Charge et Decharge (watt)"
     nameConso_maison: "Conso Maison (Watt)"
+    nameGrid_power: "Conso Réseau (Watt)"
     nameGridTension: "Grid Tension (Volt)"
     nameBattTensiont: "Batterie Voltage (Volt)"
     namePvTensiont: "PV Voltage (Volt)"
@@ -114,6 +115,7 @@ schema:
     nameBatt_batt_decharge: str
     nameBatt_batt_chargedecharge: str
     nameConso_maison: str
+    nameGrid_power: str
     nameGridTension: str
     nameBattTensiont: str
     namePvTensiont: str
