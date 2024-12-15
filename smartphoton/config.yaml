@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r19
+version: 1.4.00-r20
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -44,6 +44,7 @@ options:
     - chemin: "false"
       type: serial
       batterie: pylontech
+  intervalBatt: 7
   mqtt:
     mqttadresse: ""
     mqttport: ""
@@ -102,6 +103,7 @@ schema:
     - chemin: "str"
       type: list(false|ip|serial)?
       batterie: list(false|pylontech)?
+  intervalBatt: int
   mqtt:
     mqttadresse: str?
     mqttport: port?

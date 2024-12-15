@@ -15,6 +15,10 @@ configuration:
     name: Liste des Batteries
     description: >-
       Choix du port usb ou ip de la batterie. ("false" pour ne pas l'utiliser)
+  intervalBatt:
+    name: Intervalle pour les batteries (en seconde)
+    description: >-
+      Intervalle en seconde pour chaque communication avec les batteries (déconseillé de baisser en dessous de 7 secondes)
   nameEntities:
     name: Nom des entités
     description: >-
@@ -23,6 +27,8 @@ configuration:
     name: Choix de la Batterie
     description: >-
       Choisir le type de batterie.
+  mqtt:
+    name: Paramètres MQTT
   usbbatterie:
     name: Choix port usb de la batterie
     description: >-
