@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r20
+version: 1.4.00-r21
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -38,7 +38,7 @@ options:
       onduleur: voltronic
       multionduleur: false
       battTension: 48
-  interval: 7
+  interval: 2
   debug: false
   listbatterie:
     - chemin: "false"
@@ -97,7 +97,7 @@ schema:
       onduleur: list(false|voltronic|easun|growattspf|growattSPH)?
       multionduleur: bool?
       battTension: list(48|24|12)?
-  interval: int
+  interval: float(0.5,10)
   debug: bool
   listbatterie:
     - chemin: "str"
