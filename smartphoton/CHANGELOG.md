@@ -2,14 +2,15 @@
 /!\ Attention /!\ 
 Cette version integre les calculs crc à la volé certain changement de parametre peuvent ne pas fonctionner correctement
 
-Note R21
-Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
+Note dev
+R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
+R22 - Paramètre 12 et 13 en 0.1
+R23 - Correction de l'intervalle
 
 - Ajout Calcul CRC
 - Ajout des création de capteurs HA (Appareil mqtt => smartphoton => Redemarer Ha)
 - Ajout du Capteur conso réseaux (Compatible avec les nouveaux onduleurs)
-- Suppr - Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 7)
-- Modif - Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 2 Seconde)
+- Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 2 Seconde)
 - Ajout d'intervalle de requete suivant le temps intervalle de communication
 - Ajout des modes Charge, Bypass, Eco.
 - Ajout du deuxieme mptt sur des onduleurs différents
@@ -20,6 +21,7 @@ Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement d
 - Ajout numéro version et modèle
 - Ajout option 130 et 140 au parametre charge max
 - Ajout debug
+- Modification des options des parametres 12 et 13 voltronic à 0.1
 - Vérification des données Voltronic
 - Alerte : signalement et tentative de reconnexion suite à un problème de communication
 - Remplacement des globals name
