@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r25
+version: 1.4.00-r26
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -38,7 +38,7 @@ options:
       onduleur: voltronic
       multionduleur: false
       battTension: 48
-  interval: 2
+  interval: 1
   debug: false
   listbatterie:
     - chemin: "false"
