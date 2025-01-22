@@ -24,6 +24,7 @@ comparaison avec l’installation de tout autre module complémentaire Home Assi
 1. Ajouter le dépot "https://github.com/jean-luc1203/smartphoton-ha-addon/" dans la boutique des modules complémentaires
 1. Cliquez sur le bouton "Installer" pour installer le module complémentaire..
 1. Configurer votre installation dans le menu configuration.
+1. Enregistrement de votre licence ici : [Smartphoton licence][addon-licence]
 1. Démarrez le module complémentaire "Smartphoton".
 1. Vérifiez les journaux de "Smartphoton" pour voir si tout s'est bien passé.
 
@@ -33,7 +34,10 @@ Vous pouvez vous aider du [Smartphoton Configuration][addon-config] pour votre y
 ---
 ## Onduleur
 ---  
-   
+### Option: `Licence`
+Enregistrement de votre licence ici :
+[Smartphoton licence][addon-licence]
+
 
 ### Option: `Choix port Liste Onduleur ou listonduleur`
 Choisir du port usb de d'onduleur. ("false" pour ne pas l'utiliser)<br />
@@ -240,6 +244,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon-licence]: https://domosimple.eu/licence.php
 [addon-config]: http://domosimple.eu/onduleur/
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_nodered&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [addon-mqtt]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mosquitto&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository

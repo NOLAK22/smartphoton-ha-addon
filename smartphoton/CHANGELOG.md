@@ -1,12 +1,13 @@
 ## 1.4.00
-/!\ Attention /!\ 
-Cette version integre les calculs crc à la volé certain changement de parametre peuvent ne pas fonctionner correctement
+
 
 Note dev
 R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
 R22 - Paramètre 12 et 13 en 0.1
 R23 - Correction de l'intervalle
+R27 - Ajout de licence, Correction paramètre 12 et 13
 
+- Ajout de licence, eregistrer votre licence sur https://domosimple.eu/licence.php
 - Ajout Calcul CRC
 - Ajout des création de capteurs HA (Appareil mqtt => smartphoton => Redemarer Ha)
 - Ajout du Capteur conso réseaux (Compatible avec les nouveaux onduleurs)
