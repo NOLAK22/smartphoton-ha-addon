@@ -34,7 +34,6 @@ R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Complete
 - Remplacement des Noms de l'onduleur
 - Mise a jour vers nodejs:0.2.5
 - Mise a jour node red 4.0.3
-- // Préparation Ajout la création thème //
 - Refonte de la configuration des globals variables
 
 
