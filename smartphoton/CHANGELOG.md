@@ -2,6 +2,7 @@
 
 
 Note dev
+R28.4 - Vérification EDF
 R28.1 - Suppression double message
 R28 - Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
 R27 - Ajout de licence, Correction paramètre 12 et 13
