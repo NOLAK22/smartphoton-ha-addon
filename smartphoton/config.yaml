@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.00-r27.4
+version: 1.4.00-r28.1
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -39,13 +39,13 @@ options:
       onduleur: voltronic
       multionduleur: false
       battTension: 48
-  interval: 1
+  interval: 5
   debug: false
   listbatterie:
     - chemin: "false"
       type: serial
       batterie: pylontech
-  intervalBatt: 7
+  intervalBatt: 9
   mqtt:
     mqttadresse: ""
     mqttport: ""

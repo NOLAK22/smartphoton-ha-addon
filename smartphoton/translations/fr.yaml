@@ -14,7 +14,7 @@ configuration:
   interval:
     name: Intervalle pour l'onduleur (en seconde)
     description: >-
-      Intervalle en seconde pour chaque communication avec l’onduleur (déconseillé de baisser en dessous de 7 secondes)
+      Intervalle en seconde pour chaque communication avec l’onduleur (déconseillé de baisser en dessous de 2 secondes)
   listbatterie:
     name: Liste des Batteries
     description: >-
