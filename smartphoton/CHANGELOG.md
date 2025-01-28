@@ -2,6 +2,7 @@
 
 
 Note dev
+R29 - Ajout de vérification de communication
 R28.4 - Vérification EDF
 R28.1 - Suppression double message
 R28 - Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
