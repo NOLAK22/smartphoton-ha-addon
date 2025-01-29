@@ -2,14 +2,15 @@
 
 
 Note dev
-R29 - Ajout de vérification de communication
-R28.4 - Vérification EDF
-R28.1 - Suppression double message
-R28 - Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
-R27 - Ajout de licence, Correction paramètre 12 et 13
-R23 - Correction de l'intervalle
-R22 - Paramètre 12 et 13 en 0.1
-R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
+- R30 - Full ou min version
+- R29 - Ajout de vérification de communication
+- R28.4 - Vérification EDF
+- R28.1 - Suppression double message
+- R28 - Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
+- R27 - Ajout de licence, Correction paramètre 12 et 13
+- R23 - Correction de l'intervalle
+- R22 - Paramètre 12 et 13 en 0.1
+- R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
 
 
 - Ajout de licence, eregistrer votre licence sur https://domosimple.eu/licence.php
@@ -37,6 +38,7 @@ R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Complete
 - Mise a jour vers nodejs:0.2.5
 - Mise a jour node red 4.0.3
 - Refonte de la configuration des globals variables
+- Ajout Configuration pour le minimum de commande
 
 
 ## 1.3.11
