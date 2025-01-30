@@ -2,6 +2,8 @@
 
 
 Note dev
+- R32 - Organisation sur la gestion des erreurs
+- R31 - Correction sur la communication de plusieur onduleurs
 - R30 - Full ou min version
 - R29 - Ajout de vérification de communication
 - R28.4 - Vérification EDF
