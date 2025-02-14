@@ -1,46 +1,36 @@
 ## 1.4.00
-
-
-Note dev
-- R32 - Organisation sur la gestion des erreurs
-- R31 - Correction sur la communication de plusieur onduleurs
-- R30 - Full ou min version
-- R29 - Ajout de vérification de communication
-- R28.4 - Vérification EDF
-- R28.1 - Suppression double message
-- R28 - Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
-- R27 - Ajout de licence, Correction paramètre 12 et 13
-- R23 - Correction de l'intervalle
-- R22 - Paramètre 12 et 13 en 0.1
-- R21 - Modification de l'Intervalle des requetes, faire sauvegarde. QPGS Completement désactivé pour le moment
-
-
-- Ajout de licence, eregistrer votre licence sur https://domosimple.eu/licence.php
-- Ajout Calcul CRC
-- Ajout des création de capteurs HA (Appareil mqtt => smartphoton => Redemarer Ha)
-- Ajout du Capteur conso réseaux (Compatible avec les nouveaux onduleurs)
-- Ajout de l'Intervalle de temps entre chaque communication pour l'onduleur en seconde (par default 2 Seconde)
-- Ajout d'intervalle de requete suivant le temps intervalle de communication
+- Ajout de la licence, enregistrez votre licence sur https://domosimple.eu/licence.php.
+- Ajout du calcul CRC.
+- Ajout de la création de capteurs HA (Appareil MQTT → SmartPhoton → Redémarrer HA).
+- Ajout du capteur de consommation réseau (compatible avec les nouveaux onduleurs).
+- Ajout de l'intervalle de temps entre chaque communication pour l'onduleur en secondes (par défaut 2 secondes).
+- Ajout d'un intervalle de requêtes suivant l'intervalle de communication.
 - Ajout des modes Charge, Bypass, Eco.
-- Ajout du deuxieme mptt sur des onduleurs différents
-- Ajout du control des LEDs
-- Ajout de la configuration de la date et l'heure de l'onduleur à partir du serveur
-- Ajout de commandes personnalisées
-- Ajout des attributs sur les codes erreurs
-- Ajout numéro version et modèle
-- Ajout option 130 et 140 au parametre charge max
-- Ajout debug
-- Modification des options des parametres 12 et 13 voltronic à 0.1
-- Vérification des données Voltronic
-- Alerte : signalement et tentative de reconnexion suite à un problème de communication
-- Remplacement des globals name
-- Remplacement des globals Paramètre
-- Remplacement des globals Mqtt
-- Remplacement des Noms de l'onduleur
-- Mise a jour vers nodejs:0.2.5
-- Mise a jour node red 4.0.3
-- Refonte de la configuration des globals variables
-- Ajout Configuration pour le minimum de commande
+- Ajout du deuxième MPTT sur des onduleurs différents.
+- Ajout du contrôle des LEDs.
+- Ajout de la configuration de la date et de l'heure de l'onduleur à partir du serveur.
+- Ajout de commandes personnalisées.
+- Ajout d'attributs sur les codes d'erreur.
+- Ajout du numéro de version et du modèle.
+- Ajout des options 130 et 140 au paramètre charge max.
+- Ajout du mode debug.
+- Ajout de version "Full" ou "min" version 
+- Ajout de vérification de communication
+- Ajout attributs Stats Batterie sur le Life Cycle Correction Voltronic
+- Organisation sur la gestion des erreurs
+- Modification des options des paramètres 12 et 13 Voltronic à 0.1.
+- Vérification des données Voltronic.
+- Alerte : signalement et tentative de reconnexion suite à un problème de communication.
+- Remplacement des variables globales de nom.
+- Remplacement des variables globales de paramètres.
+- Remplacement des variables globales MQTT.
+- Remplacement des noms de l'onduleur.
+- Mise à jour vers Node.js : 0.2.5.
+- Mise à jour de Node-RED : 4.0.3.
+- Refonte de la configuration des variables globales.
+- Ajout de la configuration pour le minimum de commande.
+- Suppression du QPGS
+
 
 
 ## 1.3.11
