@@ -1,3 +1,8 @@
+## 2.0.00
+- Ajout JKBMS Sur le base de JL.
+- Optimisation du module.
+- Mise à jour de la DOC
+
 ## 1.4.00
 - Ajout de la licence, enregistrez votre licence sur https://domosimple.eu/licence.php.
 - Ajout du calcul CRC.

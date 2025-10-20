@@ -1,10 +1,8 @@
 ARG BUILD_FROM=ghcr.io/hassio-addons/base:stable
-# hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
 # Copy Node-RED package.json
 COPY package.json /opt/
-COPY node-red-dashboard-show-dashboard.patch /tmp/
 
 # Set workdir
 WORKDIR /opt
@@ -24,8 +22,8 @@ RUN \
         git \
         icu-data-full \
         nginx \
-		nodejs \
-		npm \
+        nodejs \
+        npm \
         openssh-client \
         patch \
     \
@@ -37,15 +35,14 @@ RUN \
         --unsafe-perm \
     && npm rebuild --build-from-source @serialport/bindings-cpp \
     \
-    && npm cache clear --force \
+    && npm cache clean --force \
     \
     && echo -e "StrictHostKeyChecking no" >> /etc/ssh/ssh_config \
     \
-    && patch -d /opt/node_modules/node-red-dashboard -p1 \
-             -i /tmp/node-red-dashboard-show-dashboard.patch \
+    # Removed dashboard patching step (node-red-dashboard removed) \
     \
     && apk del --no-cache --purge .build-dependencies \
-    && rm -fr \
+    && rm -rf \
         /etc/nginx \
         /root/.cache \
         /root/.npm \

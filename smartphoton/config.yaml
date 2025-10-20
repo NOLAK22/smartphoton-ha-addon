@@ -1,6 +1,6 @@
 ---
 name: Smartphoton
-version: 1.4.01
+version: 2.0.00-rev1
 slug: smartphoton
 description: Smartphoton
 url: https://domosimple.eu/
@@ -46,6 +46,7 @@ options:
     - chemin: "false"
       type: serial
       batterie: pylontech
+      nbSlave: 1
   intervalBatt: 9
   mqtt:
     mqttadresse: ""
@@ -97,7 +98,8 @@ schema:
   listonduleur:
     - chemin: str
       type: list(false|ip|serial)?
-      onduleur: list(false|voltronic|easun|growattspf|growattSPH)?
+      #onduleur: list(false|voltronic|easun|growattspf|growattSPH)?
+      onduleur: list(false|voltronic)?
       multionduleur: bool?
       battTension: list(48|24|12)?
       full: bool?
@@ -105,8 +107,9 @@ schema:
   debug: bool
   listbatterie:
     - chemin: "str"
-      type: list(false|ip|serial)?
-      batterie: list(false|pylontech)?
+      type: list(false|ip|serial|rs485)?
+      batterie: list(false|pylontech|jkbms)?
+      nbSlave: int?
   intervalBatt: int
   mqtt:
     mqttadresse: str?
