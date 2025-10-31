@@ -18,6 +18,7 @@
     "line-by-line": "*",
     "source-map-support": "*",
     "node-red-contrib-string": "*",
+    "node-red-contrib-ble": "*",
     "node-red-contrib-buffer-parser": "*"
   },
   "engines": {

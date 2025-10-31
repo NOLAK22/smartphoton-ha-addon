@@ -11,6 +11,13 @@ WORKDIR /opt
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
+RUN apk add --no-cache \
+    bluez \
+    bluez-dev \
+    libusb-dev \
+    linux-headers \
+    build-base
+
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base \
