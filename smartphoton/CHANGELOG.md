@@ -1,3 +1,6 @@
+## 2.0.04
+- Correction Debug
+
 ## 2.0.03
 - Ajout d'un warning en cas de valeur trop courte pour éviter les Time Out.
 
