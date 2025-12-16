@@ -1,3 +1,6 @@
+## 2.0.05
+- Ajout QDOP
+
 ## 2.0.04
 - Correction Debug
 
