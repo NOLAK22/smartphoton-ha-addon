@@ -1,5 +1,17 @@
 ## 2.0.05
-- Ajout QDOP
+- **Ajout QDOP**
+  - **Attention non testé**, ajout des paramètres :
+
+    - **--PBCC<nnn>** : Définir la capacité de recharge de la batterie
+      - L'unité est le pourcentage (%) allant de 5 à 95.
+
+    - **--PBDC<nnn>** : Définir la capacité de décharge de la batterie
+      - L'unité est le pourcentage (%) allant de 10 à 100.
+
+    - **--PSDC<nnn>** : Définir la capacité de coupure de la batterie
+      - L'unité est le pourcentage (%) allant de 0 à 90.
+
+
 
 ## 2.0.04
 - Correction Debug
