@@ -1,3 +1,6 @@
+## 2.0.06
+- Modification parametre 11
+	  
 ## 2.0.05
 - **Ajout QDOP**
   - **Attention non testé**, ajout des paramètres :
