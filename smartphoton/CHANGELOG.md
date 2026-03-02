@@ -1,5 +1,16 @@
-## 2.0.06
-- Modification parametre 11
+## 2.1.00 
+
+Cette version s’améliorera suivant mes besoins ou demandes. Elle sera maintenue afin de ne pas perdre un long travail, pour les personnes qui l’utilisent encore et qui ne souhaitent pas tout recommencer à chaque changement d’avis.
+
+- Version auto, update pour evité les problèmes avec HA.
+- Suppression des licences
+- Ajout du mode compatibilité pour certains onduleurs qui étaient compatibles seulement avec la version 1.3.8.
+	  
+Le JKBMS fonctionne, mais l’implémentation pour le changement des paramètres n’est pas fonctionnelle.
+
+Pour les onduleurs Easun SMX, tous les registres ne sont pas correctement supportés. 
+
+Vous pouvez envoyer des commandes personnalisées si vous souhaitez ajouter des fonctionnalités supplémentaires.
 	  
 ## 2.0.05
 - **Ajout QDOP**
